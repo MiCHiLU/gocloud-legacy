@@ -1,5 +1,15 @@
 # Google Cloud for Go
 
+**NOTE:** This repo exists solely to transition to the new import paths at
+  cloud.google.com/go. It will be removed on September 12, 2016. Only emergency
+  pull requests will be accepted.
+
+To migrate off this repo, change import paths beginning
+`google.golang.org/cloud` to `cloud.google.com/go`, except for the options in
+the `google.golang.org/cloud` package itself, which are now at
+`google.golang.org/api/option`. See details [here](https://groups.google.com/forum/#!topic/google-api-go-announce/nXY-DYZGqz8).
+
+
 [![Build Status](https://travis-ci.org/GoogleCloudPlatform/gcloud-golang.svg?branch=master)](https://travis-ci.org/GoogleCloudPlatform/gcloud-golang)
 [![GoDoc](https://godoc.org/google.golang.org/cloud?status.svg)](https://godoc.org/google.golang.org/cloud)
 
