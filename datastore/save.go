@@ -22,7 +22,7 @@ import (
 
 	timepb "github.com/golang/protobuf/ptypes/timestamp"
 	pb "google.golang.org/genproto/googleapis/datastore/v1beta3"
-	tpb "google.golang.org/genproto/googleapis/type"
+	tpb "google.golang.org/genproto/googleapis/type/latlng"
 )
 
 // saveEntity saves an EntityProto into a PropertyLoadSaver or struct pointer.
